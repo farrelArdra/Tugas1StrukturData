@@ -15,7 +15,7 @@ paket kirim[maxsize];
 //inisialisasi stack dengan posisi 1
 int top=1;
 
-//prosedur untuk menentukan apakah stack sudah penuh atau belum
+//prosedur untuk menentukan apakah stack penuh
 bool isFull()
 {
     if (top>maxsize)
@@ -24,7 +24,7 @@ bool isFull()
         return false;
 }
 
-//prosedur untuk menentukan apakah stack sudah kosong atau belum
+//prosedur untuk menentukan apakah stack kosong
 bool isEmpty()
 {
     if (top==1)
@@ -50,7 +50,7 @@ void push(int x)
     cout << endl;
 }
 
-//prosedur untuk meneluarkan data dari dalam stack
+//prosedur untuk mengeluarkan data dari dalam stack
 void pop(int x)
 {
     if(isEmpty())
