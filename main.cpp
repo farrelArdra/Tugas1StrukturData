@@ -12,7 +12,7 @@ struct paket
 
 paket kirim[maxsize];
 
-//inisialisasi stack dengan posisi 0
+//inisialisasi stack dengan posisi 1
 int top=1;
 
 //prosedur untuk menentukan apakah stack sudah penuh atau belum
