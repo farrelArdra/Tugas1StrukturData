@@ -1,3 +1,5 @@
+//A11.2021.13695
+//Farrel Ardra Muhammad
 #include <iostream>
 #define maxsize 5 //menentukan ukuran dari stack
 
